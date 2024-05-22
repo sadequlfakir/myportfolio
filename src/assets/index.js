@@ -26,8 +26,11 @@ import jobit from './jobit.png';
 import tripguide from './tripguide.png';
 import team from './team.jpg';
 import bellbird from './bellbird.jpg';
-import chai from './buymea_chai.png';
+import chai from './chai.png';
 import myportfolio from './myportfolio.png';
+import start_saying from './start_saying_more.com.png';
+import giverise from './giverise.webp';
+import mijneetschema from './mijneetschema.png';
 
 export {
   logo,
@@ -58,4 +61,7 @@ export {
   bellbird,
   chai,
   myportfolio,
+  start_saying,
+  giverise,
+  mijneetschema,
 };

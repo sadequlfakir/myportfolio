@@ -23,6 +23,9 @@ import {
   bellbird,
   chai,
   myportfolio,
+  start_saying,
+  mijneetschema,
+  giverise,
 } from '../assets';
 
 export const navLinks = [
@@ -182,6 +185,69 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'Mijn Eetschema',
+    description:
+      'This website offers personalized meal plans. Users can create a free account to receive customized dietary recommendations and meal plans tailored to their preferences and nutritional needs.',
+    tags: [
+      {
+        name: 'next.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'redux-toolkit',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: mijneetschema,
+    source_code_link: 'https://www.mijneetschema.nl/',
+  },
+  {
+    name: 'Start Saying More',
+    description:
+      'With a lack of Minority providers available, Minority groups are more likely to suffer negative side effects from inadequate treatment or misdiagnosis, and falsely believe they have little access to support',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'redux',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: start_saying,
+    source_code_link: 'https://www.startsayingmore.com/',
+  },
+  {
+    name: 'Giverise',
+    description:
+      'Giverise combines the power of charitable donations and investing to sustainably support the missions of nonprofit organizations of all types and sizes (e.g. educational, faith-based, foundations etc.)',
+    tags: [
+      {
+        name: 'next.js',
+        color: 'blue-text-gradient',
+      },
+      // {
+      //   name: 'three.js',
+      //   color: 'green-text-gradient',
+      // },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: giverise,
+    source_code_link: 'https://giverise.com/',
+  },
   {
     name: 'My Portfolio',
     description:
