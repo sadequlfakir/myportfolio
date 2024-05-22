@@ -27,6 +27,7 @@ import tripguide from './tripguide.png';
 import team from './team.jpg';
 import bellbird from './bellbird.jpg';
 import chai from './buymea_chai.png';
+import myportfolio from './myportfolio.png';
 
 export {
   logo,
@@ -56,4 +57,5 @@ export {
   team,
   bellbird,
   chai,
+  myportfolio,
 };

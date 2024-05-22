@@ -22,6 +22,7 @@ import {
   team,
   bellbird,
   chai,
+  myportfolio,
 } from '../assets';
 
 export const navLinks = [
@@ -181,6 +182,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'My Portfolio',
+    description:
+      'A place where you can contact me and see my details and my works and my skills',
+    tags: [
+      {
+        name: 'vite.js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'three.js',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: myportfolio,
+    source_code_link: 'https://github.com/sadequlfakir/myportfolio',
+  },
   {
     name: 'Buy Me A Chai',
     description:
