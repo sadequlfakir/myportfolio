@@ -118,17 +118,17 @@ const experiences = [
       // 'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
-  // {
-  //   title: 'Front End Developer',
-  //   company_name: 'Bellbird Technologies',
-  //   icon: bellbird,
-  //   iconBg: '#E6DEDD',
-  //   date: 'May 2024 - Continuing',
-  //   points: [
-  //     'Developing and maintaining web applications using React.js and other related technologies.',
-  //     'Implementing responsive design and ensuring cross-browser compatibility.',
-  //   ],
-  // },
+  {
+    title: 'Front End Developer',
+    company_name: 'WADI TASLIM INFORMATION TECHNOLOGY CO.',
+    icon: team,
+    iconBg: '#E6DEDD',
+    date: 'June 2024 - Continuing',
+    points: [
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+    ],
+  },
   // {
   //   title: 'Web Developer',
   //   company_name: 'Shopify',
